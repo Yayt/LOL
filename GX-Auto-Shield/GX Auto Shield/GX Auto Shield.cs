@@ -65,7 +65,7 @@ namespace GXAutoShield
             //float AttackDamage = 0;
             // Check if the originating source is an enemy, if you are alive, and if its not a lane minion.
             if ((unit.IsEnemy) && (!ObjectManager.Player.IsDead)  && (!unit.IsMinion))
-                Game.PrintChat(string.Format("Being Attacked by {0} using {1} which is attack type {2}!", unit.Name, attack.SData.Name, attack.SData.CastFrame));  // To be commented out at a later date
+                //Game.PrintChat(string.Format("Being Attacked by {0} using {1} which is attack type {2}!", unit.Name, attack.SData.Name, attack.SData.CastFrame));  // To be commented out at a later date
                 
                 
                 // Then find the TARGETED champion..
